@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./nice-business-desk-black-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+     height:100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container{
+    margin-left: 140px;
+   }
+#form{
+    background-color: rgb(245, 243, 230);
+    border-radius: 4px;
+    font-size: 12px;
+    width:400px;
+    padding:20px 40px;
+    margin:10px;
+}
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(51, 52, 53);
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.InputContainer i{
+    position: absolute;
+    right:10px;
+    top:35px;
+    font-size: 14px;
+ 
+}
+.InputContainer label{
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+.InputContainer input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 13px;
+	padding: 10px;
+	width: 100%;
+    margin-bottom: 7px;
+}
+.InputContainer input:focus {
+    outline: 0;
+}
+.InputContainer.error input {
+    border-color: #ff3860;
+}
+.InputContainer .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}

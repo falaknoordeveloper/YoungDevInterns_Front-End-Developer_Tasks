@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Form Validation task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="" method="">
+            <h1>Registration</h1>
+            <!-- username -->
+            <div class="InputContainer">
+                <label for="username">Username</label>
+                <input name="username" id="username" type="text" placeholder="Enter your fullname" onchange="Success()">
+                <!-- success icon -->
+                <!-- <i class="fa-solid fa-circle-check" style="color: #0e815f;"></i> -->
+                <!-- error icon -->
+                <i class="fa-solid fa-circle-exclamation" style="color: #eb5b37;display:none;" id="usernameicon"></i> 
+                 
+
+              <span style="color:red; margin-bottom: 5px;" id="username_error"></span>
+            </div>
+            <!-- Email -->
+            <div class="InputContainer">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" placeholder="Enter your Email" onchange="Success()">
+
+                <!-- <i class="fa-solid fa-circle-check" style="color: #0e815f;"></i> -->
+                <i class="fa-solid fa-circle-exclamation" style="color: #eb5b37;display:none;" id="emailicon"></i> 
+    
+                <span style="color:red; margin-bottom: 5px;" id="email_error"></span>
+            </div>
+         <!-- Pasword -->
+            <div class="InputContainer">
+                <label for="password">Password</label>
+                <input name="password" id="password" type="password" placeholder="Enter your Password" onchange="Success()">
+                <!-- <i class="fa-solid fa-circle-check" style="color: #0e815f;"></i> -->
+                <i class="fa-solid fa-circle-exclamation" style="color:#eb5b37;display:none;" id="passwordicon"></i> 
+                 
+
+                <span style="color:red; margin-bottom: 5px;" id="password_error"></span>
+            </div>
+        <!-- Confirm password -->
+            <div class="InputContainer">
+                <label for="password">Confirm Password</label>
+                <input name="password2" id="Confirmpassword" type="password" placeholder="Enter your Password again" onchange="Success()">
+                <!-- <i class="fa-solid fa-circle-check" style="color: #0e815f;"></i> -->
+                <i class="fa-solid fa-circle-exclamation" style="color: #eb5b37;display:none;" id="Cpasswordicon"></i> 
+                 
+
+                <span style="color:red; margin-bottom: 5px;" id="password2_error"></span>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+ 
+     
+ 
+     
+    <script src="./script.js"></script>
+</body>
+</html>

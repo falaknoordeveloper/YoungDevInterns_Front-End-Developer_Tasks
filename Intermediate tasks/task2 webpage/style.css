@@ -1,0 +1,173 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    height:70px;
+    background-color:#a0e0bd;
+}
+.logo h1{
+    font-size: 30px;
+    color:rgb(9, 80, 24);
+}
+
+.Nav-links{
+display: flex;
+align-items: center;
+gap:25px;
+}
+.Nav-links li{
+    list-style: none;
+    font-size: 20px;
+}
+.Nav-links li a{
+    color:rgb(32, 32, 32);
+    text-decoration: none;
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    padding: 30px;
+}
+/* main section  */
+main{
+    width:100%;
+    background-color:#a0e0bd;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+   
+.leftpart{
+    width:60%;
+    padding:20px 40px;
+}
+.leftpart .content{
+    width:70%;
+    
+}
+.content h1{
+    color:rgb(41, 40, 40);
+    font-size:50px ;
+    margin-bottom: 14px;
+
+}
+.content p{
+    font-size: 20px;
+    color:rgb(39, 37, 37);
+  
+}
+.content .btn1{
+    width:25%;
+    height:40px;
+  font-size: 19px;
+  border-radius:7px;
+  margin-top: 20px;
+  border:none;
+  background-color: green;
+  color:white;
+}
+.btn1:hover{
+    background-color: rgb(3, 150, 76);
+}
+.rightpart{
+    width:40%;
+}
+.rightpart img{
+    width: 100%;
+}
+/* About */
+.AboutSec{
+
+width:100%;
+background-color:white;
+display:flex;
+justify-content: space-between;
+align-items: center;
+gap:60px;
+}
+.AboutImg{
+    width:40%;
+}
+.AboutImg img{
+    width:100%;
+}
+.AboutContainer{
+    width:60% ;
+}
+.AboutContainer .AboutContent{
+    width: 80%;
+}
+.AboutContent h2{
+    font-size: 25px;
+    color:green;
+    margin-bottom: 8px;
+}
+.AboutContent h1{
+    font-size: 30px;
+    color:black;
+    margin-bottom: 10px;
+}
+.AboutContent p{
+    font-size: 18px;
+    color:rgb(46, 45, 45);
+    text-align: justify;
+}
+.AboutContent .btn2{
+    width:20%;
+    height:40px;
+  font-size: 19px;
+  border-radius:30px;
+  margin-top: 20px;
+  border:none;
+  background-color: green;
+  color:white;
+}
+.btn2:hover{
+    background-color: rgb(43, 122, 57);
+    color:white;
+}
+.ProductSec{
+  
+    background-color:#a0e0bd ; 
+}
+.ProductSec h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+.cardsContainer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    flex-wrap: wrap;
+}
+/* card1 */
+.card{
+    width:25%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+   padding:20px;
+    background-color: white;
+}
+.image{
+    width:100%;
+}
+.image img{
+    width:80%;
+}
+/* section4 */
+
