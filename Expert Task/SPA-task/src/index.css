@@ -1,0 +1,12 @@
+@import "tailwindcss";
+.content li{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.content li span:first-child{
+    font-size: 18px;
+    color:rgb(230, 154, 14);
+
+
+}

@@ -69,7 +69,7 @@ form.addEventListener('submit',(e)=>{
         
     }
     console.log(data);
-    alert("Form is successfully submitted.");
+    alert("The form has been successfully submitted.");
    }
 });
 
